@@ -38,7 +38,7 @@ h1 {
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
-    border: 1px solid #ddd;
+    border: 2px solid black;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: bold;
     text-transform: uppercase;
@@ -48,7 +48,7 @@ h1 {
 #jeopardy td {
     background-color: #060ce9;
     color: gold;
-    border: 2px solid #ddd;
+    border: 2px solid black;
     padding: 20px;
     text-align: center;
     cursor: pointer;
