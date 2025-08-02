@@ -55,7 +55,6 @@ h1 {
     font-size: 1.5em;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
-    text-transform: capitalize;
 }
 #jeopardy td:hover {
     background-color: #115ff4;
@@ -69,6 +68,7 @@ h1 {
     background-color: #28a200;
     color: white;
     font-weight: normal;
+    text-transform: capitalize;
 }
 
 /* Button and Loading */
