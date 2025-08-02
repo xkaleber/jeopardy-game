@@ -1,0 +1,97 @@
+/* some colors you may find useful:
+  #115ff4 (blue)
+  #060ce9 (dark blue)
+  #28a200 (green)
+  #8d2ab5 (purple)
+  #74119c (dark purple)
+*/
+
+body {
+    font-family: 'Copse', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #115ff4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Jeopardy Table */
+#jeopardy {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    display: table;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Category Headers */
+#jeopardy th {
+    background-color: #060ce9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Table Data Cells */
+#jeopardy td {
+    background-color: #060ce9;
+    color: gold;
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#jeopardy td:hover {
+    background-color: #115ff4;
+}
+#jeopardy td.question {
+    background-color: #8d2ab5;
+    color: white;
+    font-weight: normal;
+}
+#jeopardy td.answer {
+    background-color: #28a200;
+    color: white;
+    font-weight: normal;
+}
+
+/* Button and Loading */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #115ff4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    background-color: #060ce9;
+    transform: scale(1.05);
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+    color: #115ff4;
+}
